@@ -1,14 +1,14 @@
 import sql from 'mssql';
 
 const config = {
-  user: '',
-  password: '',
-  server: '',
-  database: '',
+  user: "", 
+  password: "", 
+  server: "", 
+  database: "", 
   options: {
-    encrypt: false,
-  }
-};
+    encrypt: false, 
+  },
+}
 
 const db = sql.connect(config, (error) => {
   if (error) {
