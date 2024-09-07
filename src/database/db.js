@@ -1,7 +1,7 @@
 import sql from 'mssql';
 
 const config = {
-  user: "", 
+  user: "",  
   password: "", 
   server: "", 
   database: "", 
